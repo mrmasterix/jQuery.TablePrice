@@ -1,0 +1,13 @@
+﻿.filter,
+[class^="btn-"],
+[class*=" btn-"],
+[class^="btn-"]:hover,
+[class*=" btn-"]:hover,
+[class^="btn-"]:active,
+[class*=" btn-"]:active {
+	position:relative;
+	filter: none !important;
+	filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false) !important;
+}
+.input-holder input {padding:4px 0 6px;}
+html {overflow:visible;}

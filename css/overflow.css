@@ -1,0 +1,7 @@
+.overflow,
+.input-wrap,
+.social-list,
+.breadcrumbs-list {
+	overflow:hidden;
+	zoom:1;
+}

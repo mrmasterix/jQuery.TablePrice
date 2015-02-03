@@ -1,0 +1,26 @@
+.content:before,
+.content:after,
+.clearfix:before,
+.clearfix:after,
+.max-wrap:before,
+.max-wrap:after
+{
+	content: "";
+	display: table;
+}
+
+.content:after,
+.clearfix:after,
+.max-wrap:after
+{
+  clear: both;
+}
+
+.content,
+.clearfix,
+.max-wrap,
+[class^="btn-"],
+[class*=" btn-"]
+{
+  zoom: 1;
+}
