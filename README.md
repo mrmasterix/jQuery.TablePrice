@@ -1,6 +1,14 @@
 # jQuery.TablePrice
 jQuery plugIn for store table price (cart) pages. [PlugIn page link](http://jsjq.ru/plagin-podscheta-stoimosti-tovarov-v-korzine-jquery-tableprice/).
 
+## Features and description of the plugin
+* Work with integers and float numbers.
+* Separation of digits by spaces.
+* Storing entries with jQuery Cookie.
+* Removing items from the basket (without interaction with ajax and php. It means that if you remove the items and refresh the page, the items will still be there. There is also an option of callback and you can sync it with php or ajax browsing).
+* Get the total cost, array of inputs, multidimensional array with all options after initialization of the plugin.
+* Plugin also performs lots of callback and events features.
+
 ## Resources
 * [jQuery.TablePrice.js for developers (full version)](https://raw.githubusercontent.com/mrmasterix/jQuery.TablePrice/master/lib/tablePrice.js)
 * [jQuery.TablePrice.min.js for use (min version)](https://raw.githubusercontent.com/mrmasterix/jQuery.TablePrice/master/lib/tablePrice.min.js)
