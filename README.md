@@ -2,8 +2,8 @@
 jQuery plugIn for store table price (cart) pages. [PlugIn page link](http://jsjq.ru/plagin-podscheta-stoimosti-tovarov-v-korzine-jquery-tableprice/).
 
 ## Resources
-* [jQuery.TablePrice for developers (full version)](https://raw.githubusercontent.com/mrmasterix/jQuery.TablePrice/master/lib/tablePrice.js)
-* [jQuery.TablePrice for use (min version)](https://raw.githubusercontent.com/mrmasterix/jQuery.TablePrice/master/lib/tablePrice.min.js)
+* [jQuery.TablePrice.js for developers (full version)](https://raw.githubusercontent.com/mrmasterix/jQuery.TablePrice/master/lib/tablePrice.js)
+* [jQuery.TablePrice.min.js for use (min version)](https://raw.githubusercontent.com/mrmasterix/jQuery.TablePrice/master/lib/tablePrice.min.js)
 * [jQuery.TablePrice API documents](http://jsjq.ru/plagin-podscheta-stoimosti-tovarov-v-korzine-jquery-tableprice/)
 * [jQuery.TablePrice examples](http://jsjq.ru/plugins/jquery.tableprice/index.html)
 
