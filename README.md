@@ -1,6 +1,5 @@
 # jQuery.TablePrice
-jQuery plugIn for store table price (cart) pages. [PlugIn page link](http://jsjq.ru/plagin-podscheta-stoimosti-tovarov-v-korzine-jquery-tableprice/).
-
+jQuery plugIn for store table price (cart) pages.
 ## Features and description of the plugin
 * Work with integers and float numbers.
 * Separation of digits by spaces.
@@ -12,8 +11,6 @@ jQuery plugIn for store table price (cart) pages. [PlugIn page link](http://jsjq
 ## Resources
 * [jQuery.TablePrice.js for developers (full version)](https://raw.githubusercontent.com/mrmasterix/jQuery.TablePrice/master/lib/tablePrice.js)
 * [jQuery.TablePrice.min.js for use (min version)](https://raw.githubusercontent.com/mrmasterix/jQuery.TablePrice/master/lib/tablePrice.min.js)
-* [jQuery.TablePrice API documents](http://jsjq.ru/plagin-podscheta-stoimosti-tovarov-v-korzine-jquery-tableprice/)
-* [jQuery.TablePrice examples](http://jsjq.ru/plugins/jquery.tableprice/index.html)
 
 ## Getting started
 
@@ -67,4 +64,3 @@ var table = $('#table1').tablePrice({
 	deleteSelector: 'delete-product'
 });
 ```
-You can see this example on [examples page](http://jsjq.ru/plugins/jquery.tableprice/index.html)
