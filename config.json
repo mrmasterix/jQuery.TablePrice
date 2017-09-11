@@ -1,0 +1,16 @@
+{
+
+  "common": {
+    "appName": "React Project Boilerplate",
+    "appRoot": "#app-root"
+  },
+
+  "production": {
+    "apiUrl": "//production_url"
+  },
+
+  "development": {
+    "apiUrl": "//jsonplaceholder.typicode.com",
+    "port": "9080"
+  }
+}

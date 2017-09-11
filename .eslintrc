@@ -1,0 +1,60 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "js": true,
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "rules": {
+    "semi": 2,
+    "comma-dangle": [2, "always-multiline"],
+    "import/newline-after-import": 0,
+    "import/no-dynamic-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 2,
+    "import/prefer-default-export": 0,
+    "import/no-named-as-default": 0,
+    "max-len": [1, 120, 2],
+    "prop-types": [0],
+    "no-console": 1,
+    "class-methods-use-this": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-no-target-blank": 0,
+    "react/require-extension": 0,
+    "react/self-closing-comp": 0,
+    "require-yield": 0,
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "react/prop-types": 0,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "camelcase": [0, {"properties": "never"}],
+    "no-throw-literal": [0, {"properties": "never"}]
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./webpack-configs/prod.config.js"
+      }
+    },
+    "import/ignore": ["node_modules"]
+  },
+  "extends": ["airbnb-base"],
+  "globals": {
+    "require": true,
+    "commonConfig": true,
+    "envConfig": true
+  }
+}
